@@ -75,7 +75,7 @@ Restores from the most recent backup.
 
 The root cause lives in the Claude Code binary's system-prompt construction logic. This package only patches **model behavior** — it makes the model immune to the stale arguments by forcing cross-verification. The actual `lastInvocationArgs` leak still happens upstream.
 
-Track the upstream fix: [anthropics/claude-code#<TBD>](https://github.com/anthropics/claude-code/issues).
+Track the upstream fix: https://github.com/anthropics/claude-code/issues/69679.
 
 ## Requirements
 

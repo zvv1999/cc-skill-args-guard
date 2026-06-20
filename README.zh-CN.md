@@ -75,7 +75,7 @@ cd cc-skill-args-guard
 
 Bug 的根源在 Claude Code 二进制里的 system prompt 构造逻辑。这个包只补丁**模型行为层**——让模型对过期 args 免疫。`lastInvocationArgs` 泄漏本身还是上游的 bug。
 
-上游 issue 跟踪：[anthropics/claude-code#<TBD>](https://github.com/anthropics/claude-code/issues)。
+上游 issue 跟踪：https://github.com/anthropics/claude-code/issues/69679。
 
 ## 环境要求
 
